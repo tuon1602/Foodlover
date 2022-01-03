@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap');
+
+#header
+{
+    height: 65px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav
+{
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    margin:17px 0 ;
+}
+
+
+#nav > li >a
+{
+    margin: 0;
+    padding: 0;
+    font-size:25px ;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+#nav li:hover a
+{
+    color:#dc4444;
+}
+
+#nav .logo
+{
+    text-decoration: none;
+    font-size: 28px;
+    color:#dc4444; 
+}
+
+#nav .logo-bag,#nav .logo-user
+{
+    color: #dc4444;
+    text-decoration: none;
+    font-size:30px;
+}
+
+
+#nav .logo
+{
+    color: #dc4444;
+}
+
+
+
+/*body */
+#content
+{
+    background-color: #D3D3D3;
+    display:flex;
+    justify-content: center;
+    height:900px;
+}
+.signin-modal
+{
+    width: 500px;
+    height:750px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888888;
+}
+.signin-modal-mod
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin-nav
+{
+    margin-top:20px;
+    text-align: center;
+    font-size:40px;
+}
+.signin-nav > img
+{
+    margin-top:10px;
+    width:60px;
+    height:60px;
+}
+.signin-body
+{
+    margin:20px 0 20px 0px;
+    position: relative;
+}
+
+
+.signin-body >button
+{
+    height:50px;
+    width: 300px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    background-color:#dc4444;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.signin-information-display
+{
+    margin-bottom:5px;
+    font-size: 14px;
+}
+.signin-type-information
+{
+    display:block;
+    margin-bottom: 20px;
+    height:50px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left:10px;
+    border:1px solid black;
+    position: relative;
+}
+.reveal-icon
+{
+   font-size: 20px;
+   cursor: pointer;
+   color:#dc4444;
+}
+.reveal-icon-1
+{
+    position: relative;
+    top:-302px;
+    left:120px;
+}
+.reveal-icon-2
+{
+    position: relative;
+    top:-236px;
+    left:120px;
+}
+
+.sigin-footer
+{
+    
+}
+
+.signin-footer-information
+{
+    margin-bottom:5px;
+    width:300px;
+    text-align: center;
+}
+.footer-2
+{
+    color:#dc4444;
+}
+.footer-2 span
+{
+    color:black;
+}
+
+.footer-3 a
+{
+    text-decoration:none;
+    color:#dc4444;
+}
+.signin-body >button:hover,.footer-3 a:hover
+{
+    opacity: 0.7;
+}
+
+/*footer*/
+#footer
+{  
+    
+    height:200px;
+    background-color:black;
+}
+.contact
+{
+    font-size: 20px;
+    display:flex;
+    color:white;
+    justify-content: center;
+}
+.contact-logo
+{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.logo-fb
+{
+    color:#699BF7;
+}
+.logo-discord
+{
+    color:#699BF7;
+}
+.logo-insta
+{
+    color:#D99BFF;
+}
+
+
+.contact-connection, .contact-logo
+{
+    margin-top: 15px;
+}
+
+.footer-in4
+{
+    margin-top: 25px;
+   display:flex;
+   justify-content:center;
+}
+
+.footer-content
+{
+    margin: 0 70px;
+}
+
+.footer-content > a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-content-2 > a >p,.footer-content-3 > a >p
+{
+    margin-top:10px;
+}
+.footer-content-2 > a >p:hover,.footer-content-3 > a >p:hover
+{
+    color:#dc4444;
+}
+
+
+.footer-content-1
+{
+    font-size:36px;
+}
+.footer-content-1 >p 
+{
+    color: white;
+}
+.call-icon
+{
+    color:#dc4444
+}
+.footer-content-1 .call-number
+{
+    color:#dc4444;
+    letter-spacing: 2px;
+}
+
+.footer-select
+{
+    margin-top:10px;
+    border:none;
+    background-color:#dc4444;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+

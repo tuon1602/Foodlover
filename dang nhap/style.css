@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap');
+
+#header
+{
+    height: 65px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav
+{
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    margin:17px 0 ;
+}
+
+
+#nav > li >a
+{
+    margin: 0;
+    padding: 0;
+    font-size:25px ;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+#nav li:hover a
+{
+    color:#dc4444;
+}
+
+#nav .logo
+{
+    text-decoration: none;
+    font-size: 28px;
+    color:#dc4444; 
+}
+
+#nav .logo-bag,#nav .logo-user
+{
+    color: #dc4444;
+    text-decoration: none;
+    font-size:30px;
+}
+
+
+#nav .logo
+{
+    color: #dc4444;
+}
+
+
+
+/*body */
+#content
+{
+    background-color: #D3D3D3;
+    display:flex;
+    justify-content: center;
+    height:900px;
+}
+
+.login-modal
+{
+    width: 500px;
+    height:750px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.login-modal-mod > .login-body
+{
+    margin-left:100px;
+}
+
+.login-nav
+{
+    text-align: center;
+    margin-top:20px;
+    font-size: 40px;
+}
+
+.login-nav > img
+{
+    display: inline-block;
+    width:60px;
+    height:60px;
+    margin-top:10px;
+}
+
+.login-footer > a,.login-body >a 
+{
+    text-decoration: none;
+}
+.login-footer > a
+{
+    color:#dc4444;
+}
+.login-body >a 
+{
+    color:#1760ED;
+    display:inline-block;
+    margin-top:10px;
+    font-size: 12px;
+}
+
+.login-body > i
+{
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    bottom:35px;
+    left:265px;
+    color:#dc4444
+}
+
+.login-body
+{
+    margin-top:20px;
+}
+
+.login-body > label ,.login-body > input,.login-body > button
+{
+    display:block;
+}
+.login-methods
+{
+    position: relative;
+    margin-top:30px;
+}
+.login-methods > button
+{
+    display:block;
+}
+
+.login-body > input,.login-body > button,.login-methods > button
+{
+    height: 50px;
+    width:300px;
+}
+.login-body > input
+{
+    padding-left:10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+.login-methods > button
+{
+    padding-left:50px;
+}
+.login-methods > i
+{
+    position:absolute;
+    left:20px;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.login-logo-facebook
+{
+    top:4px;
+    color:white;
+}
+
+.login-logo-google
+{
+    color:white;
+    opacity: 0.7;
+    top:64px;
+}
+.login-logo-apple
+{
+    top:122px;
+    color:white;
+}
+
+
+
+.login-facebook
+{
+    background-color:#3B5998;
+}
+.login-google
+{
+    padding-right:13px;
+    background-color:#dc4444;
+}
+.login-apple
+{
+    background-color: black;
+    padding-right:21px;
+}
+.login-content
+{
+    font-size: 16;
+    cursor:pointer;
+    border-radius: 20px;;
+    border:none;
+    margin-top:10px;
+    color:white;
+}
+
+.login-footer
+{
+    text-align: center;
+    margin-top:30px;
+}
+.login-password
+{
+    margin-top:20px;
+}
+.login-button
+{
+    cursor: pointer;
+    background-color:#dc4444;
+    border-radius: 20px;
+    border:none;
+    color:white;
+    font-size: 20px;
+}
+.login-button:hover,.login-content:hover,.login-body >a:hover,.login-footer >a:hover
+{
+    opacity: 0.8;
+}
+
+.login-line
+{
+    margin-top: 10px;
+    height:2px;
+    background-color:black;
+    width: 300px;
+}
+
+
+/*footer*/
+#footer
+{  
+    height:200px;
+    background-color:black;
+}
+.contact
+{
+    font-size: 20px;
+    display:flex;
+    color:white;
+    justify-content: center;
+}
+.contact-logo
+{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.logo-fb
+{
+    color:#699BF7;
+}
+.logo-discord
+{
+    color:#699BF7;
+}
+.logo-insta
+{
+    color:#D99BFF;
+}
+
+
+.contact-connection, .contact-logo
+{
+    margin-top: 15px;
+}
+
+.footer-in4
+{
+    margin-top: 25px;
+   display:flex;
+   justify-content:center;
+}
+
+.footer-content
+{
+    margin: 0 70px;
+}
+
+.footer-content > a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-content-2 > a >p,.footer-content-3 > a >p
+{
+    margin-top:10px;
+}
+.footer-content-2 > a >p:hover,.footer-content-3 > a >p:hover
+{
+    color:#dc4444;
+}
+
+
+.footer-content-1
+{
+    font-size:36px;
+}
+.footer-content-1 >p 
+{
+    color: white;
+}
+.call-icon
+{
+    color:#dc4444
+}
+.footer-content-1 .call-number
+{
+    color:#dc4444;
+    letter-spacing: 2px;
+}
+
+.footer-select
+{
+    margin-top:10px;
+    border:none;
+    background-color:#dc4444;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+

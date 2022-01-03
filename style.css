@@ -1,0 +1,322 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap');
+
+#header
+{
+    height: 65px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+#nav
+{
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    margin:17px 0 ;
+}
+
+
+#nav > li >a
+{
+    margin: 0;
+    padding: 0;
+    font-size:25px ;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+#nav li:hover a
+{
+    color:#dc4444;
+}
+
+#nav .logo
+{
+    text-decoration: none;
+    font-size: 28px;
+    color:#dc4444; 
+}
+
+#nav .logo-bag,#nav .logo-user
+{
+    color: #dc4444;
+    text-decoration: none;
+    font-size:30px;
+}
+
+
+#nav .logo
+{
+    color: #dc4444;
+}
+
+/* container */
+
+#container
+{
+
+}
+
+.first-bg-image
+{
+
+}
+.bg-image
+{
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+}
+
+.image-slider
+{
+    margin-top: 50px;
+}
+.promotion
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.promotion-pic 
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+.promotion-pic>img
+{
+    max-width: 30%;
+}
+
+.promotion-pic .change-left, .promotion-pic .change-right
+{
+    position: relative;
+    bottom: -115px;
+    font-size: 50px;
+}
+.promotion-pic .change-left:hover, .promotion-pic .change-right:hover
+{
+    color:#dc4444;
+}
+
+.fast-choose
+{
+    margin-top: 50px;
+}
+.choose-dcp
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+    text-transform: bold;
+    margin-bottom: 10px;
+}
+
+#choose-1:hover, #choose-2:hover
+{
+    color:#dc4444;
+    cursor: pointer;
+}
+
+.Line
+{
+
+    height:1px;
+    background:black;
+    margin-bottom: 50px;
+}
+
+#default-dcp
+{
+    color:#dc4444;
+}
+
+.choose-dcp-food
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choose-dcp-food .dcp-food
+{
+    
+}
+
+.choose-dcp-food .dcp-food img
+{
+    min-width: 400px;
+    max-height: 300px;
+}
+
+.dcp-food
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 430px;
+}
+.dcp-food-1
+{
+    
+}
+
+.dcp-food-2
+{
+ 
+}
+
+.dcp-food-3
+{
+    
+}
+
+.dcp-food-4
+{
+   
+}
+
+.text-food-dcp, .text-food-dcp-price
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-food-dcp-price
+{
+    color:#dc4444;
+   
+}
+
+.button-container
+{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+}
+
+.button-extend
+{
+    cursor: pointer;
+    padding: 25px 85px;
+    background-color:rgba(220, 68, 68,0.5);
+    color: white;
+    border:none;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    
+}
+.button-extend:hover
+{
+    background-color:rgba(220, 68, 68,1);
+}
+
+#footer
+{  
+    
+    margin-top:50px;
+    height:200px;
+    background-color:black;
+}
+.contact
+{
+    font-size: 20px;
+    display:flex;
+    color:white;
+    justify-content: center;
+}
+.contact-logo
+{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.logo-fb
+{
+    color:#699BF7;
+}
+.logo-discord
+{
+    color:#699BF7;
+}
+.logo-insta
+{
+    color:#D99BFF;
+}
+
+
+.contact-connection, .contact-logo
+{
+    margin-top: 15px;
+}
+
+.footer-in4
+{
+    margin-top: 25px;
+   display:flex;
+   justify-content:center;
+}
+
+.footer-content
+{
+    margin: 0 70px;
+}
+
+.footer-content > a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-content-2 > a >p,.footer-content-3 > a >p
+{
+    margin-top:10px;
+}
+.footer-content-2 > a >p:hover,.footer-content-3 > a >p:hover
+{
+    color:#dc4444;
+}
+
+
+.footer-content-1
+{
+    font-size:36px;
+}
+.footer-content-1 >p 
+{
+    color: white;
+}
+.call-icon
+{
+    color:#dc4444
+}
+.footer-content-1 .call-number
+{
+    color:#dc4444;
+    letter-spacing: 2px;
+}
+
+.footer-select
+{
+    margin-top:10px;
+    border:none;
+    background-color:#dc4444;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+

@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap');
+
+#header
+{
+    height: 65px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav
+{
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    margin:17px 0 ;
+}
+
+
+#nav > li >a
+{
+    margin: 0;
+    padding: 0;
+    font-size:25px ;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+#nav li:hover a
+{
+    color:#dc4444;
+}
+
+#nav .logo
+{
+    text-decoration: none;
+    font-size: 28px;
+    color:#dc4444; 
+}
+
+#nav .logo-bag,#nav .logo-user
+{
+    color: #dc4444;
+    text-decoration: none;
+    font-size:30px;
+}
+
+
+#nav .logo
+{
+    color: #dc4444;
+}
+
+
+/* body */
+
+#content
+{
+    position: relative;
+    top:30px;
+    height:2400px;
+}
+
+.search-section
+{
+    position:absolute;
+    top: 50px;
+    width: 100%;
+    height:150px;
+    background-color:black;
+}
+.search-border
+{
+    position:absolute;
+    top:0px;
+    left:25%;
+    height:70px;
+    width:50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.search-piece
+{
+    position:absolute;
+    top:10%;
+    left: 20px;
+}
+.search-form
+{
+    background-color:#c4c4c4;
+    width: 830px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.search-icon
+{
+    position:absolute;
+    top:2px;
+    font-size: 20px;
+    color:white;
+    background-color:#dc4444;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.sort-by-culture
+{
+    position:relative;
+    top: 100px;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    margin: 0 100px;
+}
+.culture-sorted
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.culture-sorted:hover
+{
+    cursor: pointer;
+    color:#dc4444;
+}
+
+.sort-by-food
+{
+    position: relative;
+    top:250px;
+    display: flex;
+    justify-content:center;
+    gap:100px;
+}
+.sorted-food
+{
+
+    height:50px;
+    width:100px;
+    background-color:white;
+    border: 1px solid rgba(0,0,0,0.3);
+    cursor:pointer;
+    border-radius:5px;
+    font-weight: 500;
+}
+.sorted-food:hover
+{
+    background-color:#dc4444;
+    color:white;
+}
+
+.food-title
+{
+    position: relative;
+    top:300px;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+.line-1,.line-2
+{
+    width:500px;
+    height:2px;
+    background-color:rgba(0,0,0,0.3);
+    margin-top:15px;
+}
+
+.each-title
+{
+    font-size: 25px;
+}
+
+.food-item
+{
+    position: relative;
+    top:350px;
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    margin-bottom:50px;
+
+}
+.food-item-in4
+{
+    position: relative;
+    width:250px;
+    height:350px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.food-item-image
+{
+    cursor: pointer;
+    border-radius:10px;
+    width: 250px;
+    height:200px;
+}
+.food-item-name
+{
+    text-align: center;
+    margin-top:5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.food-item-money
+{
+    text-align: center;
+    margin-top:5px;
+    font-size: 20px;
+    color:#dc4444;
+}
+
+.food-item-to-cart,.food-item-order
+{
+    cursor: pointer;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+
+.food-item-to-cart
+{
+    padding:10px 2px;
+    width:100px;
+    margin-left:20px;
+    border: none;
+    border-radius: 10px;
+    background-color:wheat;
+}
+.food-item-order
+{
+    padding:10px 10px;
+    margin-left:20px;
+    background-color:#dc4444;
+    color:white;
+    border:none;
+    border-radius: 10px;
+}
+.food-item-order:hover,.food-item-to-cart:hover
+{
+    opacity: 0.8;
+}
+.food-title-2
+{
+    margin-top:150px;
+}
+
+.watch-more-button
+{
+    position:relative;
+    top:400px;
+    display:flex;
+    justify-content:center;
+}
+.watch-more-button > button
+{
+    cursor: pointer;
+    border-radius:10px;
+    color:white;
+    background-color:#dc4444;
+    border: none;
+    padding:20px 50px;
+}
+.watch-more-button > button:hover
+{
+    opacity: 0.8;
+}
+
+
+/* footer */
+#footer
+{  
+    
+    margin-top:50px;
+    height:200px;
+    background-color:black;
+}
+.contact
+{
+    font-size: 20px;
+    display:flex;
+    color:white;
+    justify-content: center;
+}
+.contact-logo
+{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.logo-fb
+{
+    color:#699BF7;
+}
+.logo-discord
+{
+    color:#699BF7;
+}
+.logo-insta
+{
+    color:#D99BFF;
+}
+
+
+.contact-connection, .contact-logo
+{
+    margin-top: 15px;
+}
+
+.footer-in4
+{
+    margin-top: 25px;
+   display:flex;
+   justify-content:center;
+}
+
+.footer-content
+{
+    margin: 0 70px;
+}
+
+.footer-content > a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-content-2 > a >p,.footer-content-3 > a >p
+{
+    margin-top:10px;
+}
+.footer-content-2 > a >p:hover,.footer-content-3 > a >p:hover
+{
+    color:#dc4444;
+}
+
+
+.footer-content-1
+{
+    font-size:36px;
+}
+.footer-content-1 >p 
+{
+    color: white;
+}
+.call-icon
+{
+    color:#dc4444
+}
+.footer-content-1 .call-number
+{
+    color:#dc4444;
+    letter-spacing: 2px;
+}
+
+.footer-select
+{
+    margin-top:10px;
+    border:none;
+    background-color:#dc4444;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
