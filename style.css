@@ -72,11 +72,37 @@
 {
 
 }
+.slider-bg-image
+{
+    width: 100%;
+    height:auto;
+    margin:  0 0 0 -2400px;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
+    animation-play-state: running;
+}
 .bg-image
 {
     margin-top: 70px;
     width: 100%;
     height: auto;
+}
+@keyframes slide_animation
+{
+    0% {left: 0;}
+    10% {left: 0;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0;}
+    90% {left: 0;}
+    100% {left: 0;}
 }
 
 .image-slider
