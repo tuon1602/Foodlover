@@ -72,38 +72,14 @@
 {
 
 }
-.slider-bg-image
-{
-    width: 100%;
-    height:auto;
-    margin:  0 0 0 -2400px;
-    position: relative;
-    animation-name: slide_animation;
-    animation-duration:20s;
-    animation-iteration-count: infinite;
-    animation-direction: left;
-    animation-play-state: running;
-}
+
 .bg-image
 {
     margin-top: 70px;
     width: 100%;
-    height: auto;
+    height: 600px;
 }
-@keyframes slide_animation
-{
-    0% {left: 0;}
-    10% {left: 0;}
-    20% {left: 1200px;}
-    30% {left: 1200px;}
-    40% {left: 2400px;}
-    50% {left: 2400px;}
-    60% {left: 1200px;}
-    70% {left: 1200px;}
-    80% {left: 0;}
-    90% {left: 0;}
-    100% {left: 0;}
-}
+
 
 .image-slider
 {
@@ -119,12 +95,46 @@
 .promotion-pic 
 {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px; 
+    position: relative;
+}
+.slick-initialized .slick-slide
+{
+   margin:0 20px;
+}
+.slick-arrow
+{
+    position: relative;
+    top:150px;
+    cursor: pointer;
+}
+.slick-arrow:hover
+{
+    color:white;
+    background-color:#dc4444;
+    transition-duration: 1s;
+}
+.slick-prev
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 2000px;
+    border:none;
+    font-size: 20px;
+}
+.slick-next
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 2000px;
+    border:none;
+    font-size: 20px;
 }
 
-.promotion-pic>img
+.promotion-pic img
 {
-    max-width: 30%;
+    height:350px;
 }
 
 .promotion-pic .change-left, .promotion-pic .change-right
