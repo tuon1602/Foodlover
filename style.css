@@ -186,6 +186,10 @@
     justify-content: space-evenly;
 }
 
+.dcp-food
+{
+    cursor: pointer;
+}
 .choose-dcp-food .dcp-food
 {
     
